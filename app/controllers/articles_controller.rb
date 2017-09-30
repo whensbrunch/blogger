@@ -2,7 +2,6 @@ class ArticlesController < ApplicationController
   include ArticlesHelper
 
   def index
-    # instance variable
     @articles = Article.all
   end
 
